@@ -1,0 +1,369 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rustam.dev CV</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+   
+    <!-- Custom CSS-->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="container">
+    <header class="d-flex flex-wrap align-items-center py-3 mb-4 border-bottom">
+      <a href="/" class="navbar-brand align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <span class="fs-5 logo">Rustam.dev</span>
+      </a>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link" aria-current="page">HOME</a></li>
+        <li class="nav-item"><a href="#about-me" class="nav-link">ABOUT ME</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">PROJECTS</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">CONTACT ME</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row align-items-center g-5 py-5">
+        <div class="col-lg-6 hero-text text-start">
+          <h1 class="display-5 fw-bold lh-1.2 mb-3">Passionate Backend Developer</h1>
+          <p class="lead animate-link">Hey, I'm Rustam. Back-end Developer based in Almaty, Kazakhstan. 📍</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <span>
+              <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/roostaman">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="color-mine">
+                  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+                </svg>
+              </a>
+              <a aria-label="telegram" rel="noreferrer" target="_blank" href="https://t.me/roosman">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="color-mine">
+                  <path d="M12,2c5.522,0,10,4.478,10,10s-4.478,10-10,10S2,17.522,2,12S6.478,2,12,2z M16.369,7.447L9.358,14.74l-2.51-2.41 c-0.175-0.167-0.433-0.205-0.644-0.091c-0.209,0.114-0.339,0.332-0.339,0.574v3.363c0,0.33,0.267,0.598,0.598,0.598 c0.086,0,0.172-0.019,0.252-0.059l2.935-1.369l3.874,3.702c0.178,0.168,0.421,0.236,0.664,0.188c0.242-0.046,0.44-0.206,0.545-0.433 c0.104-0.227,0.098-0.489-0.021-0.697l-1.635-2.947l3.629-3.635C16.665,7.926,16.655,7.595,16.369,7.447z"/>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+        <div class="col-10 col-sm-8 col-lg-6 justify-content-end">
+          <img src="{% static 'images/1.PNG' %}" class="d-block mx-lg-auto img-fluid rounded-circle img-circle" alt="my picture" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About me -->
+  <section id="about-me" class="about">
+    <!-- Stack --> 
+    <div class="d-flex justify-content-center stack">
+      <h3 class="text-center experience-title">Stack ⤵️</h3>
+    </div>
+    <div class="d-flex justify-content-center">
+      <ul class="nav nav-img col-md-6 justify-content-center list-unstyled d-flex">
+        <li>
+          <img src="https://skillicons.dev/icons?i=py&theme=light" alt="skill-icon">
+        </li>
+        <li>
+          <img src="https://skillicons.dev/icons?i=go&theme=light" alt="skill-icon">
+        </li>
+        <li>
+          <img src="https://skillicons.dev/icons?i=django&theme=light" alt="skill-icon">
+        </li>
+        <li>
+          <img src="https://skillicons.dev/icons?i=flask&theme=light" alt="skill-icon">
+        </li>
+        <li>
+          <img src="https://skillicons.dev/icons?i=postgres&theme=light" alt="skill-icon">
+        </li>
+        <li>
+          <img src="https://skillicons.dev/icons?i=git&theme=light" alt="skill-icon">
+        </li>
+        <li>
+          <img src="https://skillicons.dev/icons?i=html&theme=light" alt="skill-icon">
+        </li>
+        <li>
+          <img src="https://skillicons.dev/icons?i=css&theme=light" alt="skill-icon">
+        </li>
+        <li>
+          <img src="https://skillicons.dev/icons?i=bootstrap&theme=light" alt="skill-icon">
+        </li>
+      </ul>
+    </div>    
+    <!-- <div class="container justify-content-center">
+      <img src="static/me.png" alt="mee" width="300" height="300" class="align-items-center">
+    </div> -->
+    <div class="">
+      <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h3 class="text-side title-left">About Me</h3>
+          <p class="col-lg-8 mx-auto lead">
+            I'm a Python and Go developer with a passion for building robust web applications. With expertise in Django and Flask frameworks, I specialize in crafting scalable solutions that meet clients' needs efficiently.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Experience -->
+  <section id="experience" class="py-5 pt-5 experience-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h3 class="experience-title-1 exp-left">Skill Set</h3>
+      </div>
+      <div class="row justify-content-center">
+        
+        <div class="col-md-5 experience-box mx-2">
+          <h4 class="experience-title text-center">Back-end Development</h4>
+          <div class="row">
+            <div class="col-6 experience-item">
+              <img src="{% static 'images/checkmark.PNG' %}" alt="experience icon">
+              <div>
+                <strong>Python</strong>
+                <p>Experienced</p>
+              </div>
+            </div>
+            <div class="col-6 experience-item">
+              <img src="{% static 'images/checkmark.PNG' %}" alt="experience icon">
+              <div>
+                <strong>Go</strong>
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div class="col-6 experience-item">
+              <img src="{% static 'images/checkmark.PNG' %}" alt="experience icon">
+              <div>
+                <strong>Django</strong>
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div class="col-6 experience-item">
+              <img src="{% static 'images/checkmark.PNG' %}" alt="experience icon">
+              <div>
+                <strong>Flask</strong>
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div class="col-6 experience-item">
+              <img src="{% static 'images/checkmark.PNG' %}" alt="experience icon">
+              <div>
+                <strong>FastAPI</strong>
+                <p>Basic</p>
+              </div>
+            </div>
+            <div class="col-6 experience-item">
+              <img src="{% static 'images/checkmark.PNG' %}" alt="experience icon">
+              <div>
+                <strong>PostgreSQL</strong>
+                <p>Basic</p>
+              </div>
+            </div>
+            <div class="col-6 experience-item">
+              <img src="{% static 'images/checkmark.PNG' %}" alt="experience icon">
+              <div>
+                <strong>Git</strong>
+                <p>Basic</p>
+              </div>
+            </div>
+            <div class="col-6 experience-item">
+              <img src="{% static 'images/checkmark.PNG' %}" alt="experience icon">
+              <div>
+                <strong>DRF</strong>
+                <p>Basic</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 experience-box mx-2">
+          <h4 class="experience-title text-center">Front-end Development</h4>
+          <div class="row">
+            <div class="col-6 experience-item">
+              <img src="{% static 'images/checkmark.PNG' %}" alt="experience icon">
+              <div>
+                <strong>HTML</strong>
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div class="col-6 experience-item">
+              <img src="{% static 'images/checkmark.PNG' %}" alt="experience icon">
+              <div>
+                <strong>CSS</strong>
+                <p>Basic</p>
+              </div>
+            </div>
+            <div class="col-6 experience-item">
+              <img src="{% static 'images/checkmark.PNG' %}" alt="experience icon">
+              <div>
+                <strong>Bootstrap5</strong>
+                <p>Intermediate</p>
+              </div>
+            </div>
+            <div class="col-6 experience-item">
+              <img src="{% static 'images/checkmark.PNG' %}" alt="experience icon">
+              <div>
+                <strong>JavaScript</strong>
+                <p>Basic</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Projects -->
+  <section id="projects" class="projects-section">
+    <div class="container py-5">
+      <h4 class="experience-title-1 exp-left text-center">Projects</h4>
+      <div class="justify-content-center row row-cols-1 row-cols-md-3 g-4 pt-5">
+        <!-- card -->
+        <div class="col">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="{% static 'images/project-1.PNG' %}" alt="Project 1" class="project-img card-img-top">
+            </div>
+            <h4 class="project-title card-title">Multivendor Website</h4>
+            <div class="btn-container">
+              <a href="https://github.com/roostaman" rel="noreferrer" target="_blank" class="btn btnn btn-color-2 project-btn">Github</a>
+              <a href="https://github.com/" rel="noreferrer" target="_blank" class="btn btnn btn-color-2 project-btn">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- card -->
+        <div class="col">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="{% static 'images/project-2.PNG' %}" alt="Project 1" class="project-img card-img-top">
+            </div>
+            <h4 class="project-title card-title">Personal Blog Web</h4>
+            <div class="btn-container">
+              <a href="https://github.com/roostaman" rel="noreferrer" target="_blank" class="btn btnn btn-color-2 project-btn">Github</a>
+              <a href="https://github.com/" rel="noreferrer" target="_blank" class="btn btnn btn-color-2 project-btn">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <!-- card -->
+        <div class="col">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="{% static 'images/project-3.PNG' %}" alt="Project 1" class="project-img card-img-top">
+            </div>
+            <h4 class="project-title card-title">Aiogram Pdf Ecom Bot</h4>
+            <div class="btn-container">
+              <a href="https://github.com/roostaman" rel="noreferrer" target="_blank" class="btn btnn btn-color-2 project-btn">Github</a>
+              <a href="https://github.com/" rel="noreferrer" target="_blank" class="btn btnn btn-color-2 project-btn">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+    <div class="container text-center">
+      <h4 class="title-contact experience-title-1 exp-left">Contact</h1>
+      <h4 class="project-title text-center">Don't be shy! Hit me up! 👇</h4>
+      
+      <div class="contact__icons container justify-content-center">
+
+        <div class="contact__icon-box col-xl-16">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="color-mine"><path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5"></path><path d="M9 4v13"></path><path d="M15 7v5"></path><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path><path d="M20.2 20.2l1.8 1.8"></path>
+            </svg>
+          </span>
+          <div class="contact__info">
+            <h4>Location</h4>
+            <a class="animate-link" href="">Almaty, KZ</a>
+          </div>
+        </div>
+
+        <div class="contact__icon-box col-xl-16">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="color-mine"><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path><path d="M3 7l9 6l9 -6"></path></svg>
+          </span>
+          <div class="contact__info">
+            <h4>Email</h4>
+            <a class="animate-link" href="mailto:hibusiness.ra@gmail.com">hibusiness.ra@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact__icon-box col-xl-16">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="color-mine">
+              <path d="M12,2c5.522,0,10,4.478,10,10s-4.478,10-10,10S2,17.522,2,12S6.478,2,12,2z M16.369,7.447L9.358,14.74l-2.51-2.41 c-0.175-0.167-0.433-0.205-0.644-0.091c-0.209,0.114-0.339,0.332-0.339,0.574v3.363c0,0.33,0.267,0.598,0.598,0.598 c0.086,0,0.172-0.019,0.252-0.059l2.935-1.369l3.874,3.702c0.178,0.168,0.421,0.236,0.664,0.188c0.242-0.046,0.44-0.206,0.545-0.433 c0.104-0.227,0.098-0.489-0.021-0.697l-1.635-2.947l3.629-3.635C16.665,7.926,16.655,7.595,16.369,7.447z"/>
+            </svg>          
+          </span>
+          <div class="contact__info">
+            <h4>Telegram</h4>
+            <a class="animate-link" href="https://t.me/roosman">Let's Talk</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Blog -->
+  <section>
+
+  </section>
+
+
+  <!-- Footer -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0 text-body-secondary">Copyright © 2024. All rights reserved</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/roostaman">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="color-mine">
+              <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a aria-label="telegram" rel="noreferrer" target="_blank" href="https://t.me/roosman">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="color-mine">
+              <path d="M12,2c5.522,0,10,4.478,10,10s-4.478,10-10,10S2,17.522,2,12S6.478,2,12,2z M16.369,7.447L9.358,14.74l-2.51-2.41 c-0.175-0.167-0.433-0.205-0.644-0.091c-0.209,0.114-0.339,0.332-0.339,0.574v3.363c0,0.33,0.267,0.598,0.598,0.598 c0.086,0,0.172-0.019,0.252-0.059l2.935-1.369l3.874,3.702c0.178,0.168,0.421,0.236,0.664,0.188c0.242-0.046,0.44-0.206,0.545-0.433 c0.104-0.227,0.098-0.489-0.021-0.697l-1.635-2.947l3.629-3.635C16.665,7.926,16.655,7.595,16.369,7.447z"/>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a aria-label="linkedin" rel="noreferrer" target="_blank" href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="color-mine">
+              <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script></body>
+</html>
